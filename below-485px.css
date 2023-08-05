@@ -1,31 +1,62 @@
 @media screen and (width<485px) {
-    .navbar-section {
-        display: none;
-    }
-
-    .responsive-navbar {
-        display: flex;
-        justify-content: space-between;
-        background-color: #1c8697;
-        align-items: center;
-    }
+    .navbar-section-options {
+        position: relative;
+        width: 100%;
+        overflow: visible;
+     }
+     .navbar-section-logo{
+         display:none;
+     }
+     .navbar-section-options-ul {
+         background-color: #ffffff;
+         display: grid;
+         position: absolute;
+         width:auto;
+         height: auto;
+         overflow: visible;
+         left:-100vw;
+         transition: 0.2s ease-in-out; 
+ 
+     }
+     .navbar-section-options-ul.active{
+         left:0vw;
+     }
+     .navbar-section-options-ul li{
+      color:black;
+      width:100vw;
+      margin: 1rem 0;
+      border: none; 
+      padding:1.1rem 45%;
+      font-size: x-large;  
+     }
+     .float-navbar {
+         left: -100vw;
+     }
+     .big{
+         padding:1.1rem 0  1.1rem 41% !important;
+     }
+     .responsive-navbar{
+         display:flex;
+         justify-content: center;
+         gap:45vw;
+         background-color: #1c8697;
+         align-items:center;
+     }
 
     .responsive-navbar-logo {
         height: 5rem;
         width: 5rem;
-        margin-left: 2rem;
+        margin-left: 1rem;
         filter: drop-shadow(2px 2px 5px white);
     }
 
     .responsive-navbar-hamburger {
         height: 2rem;
         width: 2rem;
-        margin-right: 3rem;
-
     }
     .main-section{ 
         height:23rem;
-        background: linear-gradient(to top, transparent 0%, black 90%), url(" https://media.istockphoto.com/id/1221398624/photo/emergency-relief-file-folder.jpg?s=612x612&w=0&k=20&c=8DOKHqqLoDvdClAl5iykfrlXo9lGe64m26LVsu9OX8k=");
+        background: linear-gradient(to top, transparent 0%, black 100%), url(" https://media.istockphoto.com/id/1221398624/photo/emergency-relief-file-folder.jpg?s=612x612&w=0&k=20&c=8DOKHqqLoDvdClAl5iykfrlXo9lGe64m26LVsu9OX8k=");
         background-size:100% 100%;
         background-attachment: fixed; 
     }
@@ -81,6 +112,7 @@
       
       .summery-section{
         height:60rem;
+        background-size: 100% 100%;
       }
       .summery-section p{
         font-size: unset;
@@ -124,7 +156,7 @@
         padding: 0.2rem;
     }
     .footer-section {
-        gap: 4rem;
+        gap: 3rem;
         height: 2rem;
 
     }
