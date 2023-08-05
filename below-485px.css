@@ -1,7 +1,4 @@
 @media screen and (width<485px) {
-    *{
-        overflow:hidden;
-    }
     .navbar-section {
         display: none;
     }
