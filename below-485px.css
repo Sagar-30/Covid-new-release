@@ -26,14 +26,14 @@
       width:100vw;
       margin: 1rem 0;
       border: none; 
-      padding:1.1rem 45%;
+      padding:1.1rem 41%;
       font-size: x-large;  
      }
      .float-navbar {
          left: -100vw;
      }
      .big{
-         padding:1.1rem 0  1.1rem 41% !important;
+         padding:1.1rem 0  1.1rem 39% !important;
      }
      .responsive-navbar{
          display:flex;
