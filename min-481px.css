@@ -1,0 +1,123 @@
+/* 481px — 768px */
+@media screen and (min-width:481px) and (max-width:768px) {
+   *{
+    p{
+        font-size: unset;
+    }
+   }
+    .navbar-section {
+        display:none;
+    }
+    .responsive-navbar{
+        display:flex;
+        justify-content: space-between;
+        background-color: #1c8697;
+        align-items:center;
+    }
+    .responsive-navbar-logo{
+        height:5rem;
+        width:5rem;
+        margin-left: 2rem;
+        filter: drop-shadow(2px 2px 5px white);
+    }
+    .responsive-navbar-hamburger{
+        height:2rem;
+        width:2rem;
+        margin-right:3rem; 
+
+    }
+    .main-section{ 
+        height:25rem;
+        background: linear-gradient(to top, transparent 0%, black 90%), url(" https://media.istockphoto.com/id/1221398624/photo/emergency-relief-file-folder.jpg?s=612x612&w=0&k=20&c=8DOKHqqLoDvdClAl5iykfrlXo9lGe64m26LVsu9OX8k=");
+        background-size:100% 100%;
+        background-attachment: fixed; 
+    }
+    .main-section-p1{
+        line-height: normal;
+    }
+    .main-section-p2 {
+        margin:2rem 1.5rem; 
+    }
+    .main-section h1 {
+        padding: 4rem 0 0 1.5rem;
+    }
+    .help-section {
+        display:flex;
+        flex-direction:column;
+    }
+    .help-section-left {
+        width: 100%;
+        height: 30rem;
+        z-index: 1;
+    }
+    .help-section-left img {
+        display:none;
+    }
+    .help-section-right {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        z-index: 10;
+        position: relative;
+        bottom: 3rem;
+        left: 4rem;
+    }
+    .help-section-right img {
+        height: 16rem;
+        width: 80%; 
+    }
+    .help-section {
+        height: 31rem; 
+        
+    }
+
+    .providing-section-bottom {
+        height: auto;
+       flex-wrap:wrap;
+      }
+      .providing-section-bottom-div {
+        width: 90%;
+        height:23rem;
+      }
+
+      .summery-section{
+        height:48rem;
+      }
+      .summery-section p{
+        font-size: unset;
+        font-weight: unset;
+      }
+      .donate-section {
+        display:grid;
+        justify-content: center;
+        align-items: center;
+      }
+      .donate-section img {
+        height: 7rem;
+        width: 12rem;
+        justify-self: center;
+    }
+    .donate-section-p2{
+        margin: 2rem 0 ;
+    }
+    .query-section {
+        overflow:hidden;
+    }
+    .input {  
+        margin-bottom: 0.5rem;
+        padding: 0.3rem;
+    }
+    .textarea{
+        height:2.5rem;
+        width:12rem;
+    }
+    .submit-button {
+        font-size: 10px;
+        padding: 0.2rem;
+    }
+    .footer-section {
+        gap: 8rem;
+        height: 2rem;
+
+    }
+}  
