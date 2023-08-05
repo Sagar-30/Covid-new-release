@@ -38,7 +38,7 @@
      .responsive-navbar{
          display:flex;
          justify-content: center;
-         gap:45vw;
+         gap:50vw;
          background-color: #1c8697;
          align-items:center;
      }
