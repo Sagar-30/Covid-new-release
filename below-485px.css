@@ -46,7 +46,7 @@
     .responsive-navbar-logo {
         height: 5rem;
         width: 5rem;
-        margin-left: 1rem;
+        margin-left: -1.2rem;
         filter: drop-shadow(2px 2px 5px white);
     }
 
