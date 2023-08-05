@@ -54,17 +54,17 @@
         display:none;
     }
     .help-section-right {
-        width: 100%;
+        width: 87.7%;
         height: auto;
         overflow: visible;
         z-index: 10;
         position: relative;
         bottom: 3rem;
-        left: 4rem;
+        left: 2rem;
     }
     .help-section-right img {
         height: 16rem;
-        width: 80%; 
+        width: 100%; 
     }
     .help-section {
         height: 31rem; 
