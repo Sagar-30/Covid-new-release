@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="min-767px.css">
     <link rel="stylesheet" href="min-481px.css">
@@ -13,22 +13,29 @@
 
     <!--  Navbar Section -->
     <header>
+         <!-- responsive media -->
+         <div class="responsive-navbar" >
+            <img class="responsive-navbar-logo" alt="logo" src="images/logo.png">
+          <a class="responsive-navbar-a2" id="Hamburger-logo" href="#">  <img class="responsive-navbar-hamburger" src="images/bars-solid.svg" alt="bars-solid"></a>
+        </div>
+
+
         <nav class="navbar-section container">
             <div class="navbar-section-logo">
                 <img alt="logo" src="images/logo.png">
             </div>
-            <div class="navbar-section-options">
-                <ul class="navbar-section-options-ul">
-                    <a href="#">
+            <div class="navbar-section-options" >
+                <ul class="navbar-section-options-ul" id="nav-links">
+                    <a href="#Home">
                         <li>Home</li>
                     </a>
-                    <a href="#">
+                    <a href="#About">
                         <li>About</li>
                     </a>
-                    <a href="#">
-                        <li>Why Donate</li>
+                    <a href="#Why-donate">
+                        <li class="big">Why Donate</li>
                     </a>
-                    <a href="#">
+                    <a href="#Contact">
                         <li>Contact</li>
                     </a>
                 </ul>
@@ -36,15 +43,11 @@
         </nav>
 
 
-        <!-- responsive media -->
-        <div class="responsive-navbar">
-            <img class="responsive-navbar-logo" alt="logo" src="images/logo.png">
-            <img class="responsive-navbar-hamburger" src="images/bars-solid.svg" alt="bars-solid">
-        </div>
+       
 
     </header>
     <!-- Main section -->
-    <section class="main-section">
+    <section id="Home" class="main-section">
         <h1>SUPPORT THE CAUSES THAT MATTERS</h1>
         <p class="main-section-p1">JOIN US IN OUR MISSION TO SAVE LIVESHELP PROVIDE RELIEF AND SUPPORTTO PEOPLE FIGHITNG
             COVID-19</p>
@@ -55,7 +58,7 @@
 
     <!-- help Section -->
 
-    <section class="help-section container">
+    <section  class="help-section container">
         <div class="help-section-left">
             <h2>Lifting up with hands of help.</h2>
             <p class="help-section-left-p1">We can't help everyone,but everyone can help someone.</p>
@@ -76,7 +79,7 @@
 
     <!-- Providing section -->
 
-    <div class="providing-section container">
+    <div id="About" class="providing-section container">
         <h1 class="providing-section-top">Small charities can bring bigger impacts.</h1>
 
 
@@ -112,7 +115,7 @@
 
     <!-- summery section -->
 
-    <div class="summery-section">
+    <div id="Why-donate" class="summery-section">
         <h3>Summary</h3>
         <p>The COVID-19 pandemic is one of the worst health and economic crises in modern history and it continues to
             require the best of humanity to overcome. Your donation to this fund will help stop COVID-19's spread and
@@ -145,7 +148,7 @@
 
     <!-- query Section -->
 
-    <section class="query-section container">
+    <section id="Contact" class="query-section container">
         <div class="query-section-left">
             <h1>Contact us___</h1>
             <p>Get in touch if you have any inquiry</p>
@@ -173,6 +176,16 @@
         <p>copyright@2021</p>
         <p>Owned by Sagar Kaushik</p>
     </div>
+
+<script>
+ 
+ const toggleButton = document.getElementById('Hamburger-logo');
+ const navLinks= document.getElementById('nav-links');
+
+toggleButton.addEventListener('click',() => {
+    navLinks.classList.toggle('active')
+})
+</script>
 
 </body>
 
