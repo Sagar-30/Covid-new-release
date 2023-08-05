@@ -97,7 +97,7 @@
   width: 100vw;
   background: linear-gradient(to top, transparent 0%, black 65%), url(" https://media.istockphoto.com/id/1221398624/photo/emergency-relief-file-folder.jpg?s=612x612&w=0&k=20&c=8DOKHqqLoDvdClAl5iykfrlXo9lGe64m26LVsu9OX8k=");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 90%;
   background-attachment: fixed;
 }
 
@@ -160,7 +160,7 @@
 .help-section-left h2 {
   font-family: 'PT Sans', sans-serif;
   font-weight: 800;
-  margin: 1rem 0 1rem 1.2rem;
+  margin: 1rem 1rem 1rem 1.2rem;
   color: #ffffff;
   font-size: 30px;
 }
@@ -308,12 +308,15 @@
 
 /* donate section */
 .donate-section {
-  text-align: center;
+  display:grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .donate-section img {
   height: 13rem;
   width: 18rem;
+  transform: translatex(-1.4rem);
 }
 
 .donate-section p {
@@ -333,7 +336,7 @@
   width: 15rem;
   height: auto;
   border: 1px solid black;
-  margin: 3rem 0 6rem 40%;
+  margin: 3rem 0;
   font-style: none;
   background-color: #db233e;
   border-radius: 5px;
@@ -433,7 +436,7 @@
 
   .donate-section-a {
     position: relative;
-    right: 7.5rem;
+    right: 8.5rem;
 
   }
   .donate-section-p2 {
