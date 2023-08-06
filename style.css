@@ -154,6 +154,7 @@
 
 .help-section-left {
   width: 50%;
+  height: 38rem;
   background-color: var(--ast-global-color-1);
 }
 
@@ -166,8 +167,8 @@
 }
 
 .help-section-left img {
-  height: 20rem;
-  width: 21rem;
+  height: 22rem;
+  width: 23rem;
   margin: 1rem 0 1rem 1rem;
   display: inline;
 }
@@ -197,14 +198,13 @@
 
 
 .help-section-right {
-  width: 50%;
+  width: 48%;
   height: auto;
   overflow: hidden;
 }
 
 .help-section-right img {
-  height: 25.15rem;
-  width: 38rem;
+  height: 34rem;
   margin-top: 2rem;
 }
 
